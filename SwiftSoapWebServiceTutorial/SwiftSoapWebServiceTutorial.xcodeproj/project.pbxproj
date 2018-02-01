@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1B93F2A202357DE00DE17CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B93F29202357DE00DE17CF /* AppDelegate.swift */; };
+		F1B93F2C202357DE00DE17CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B93F2B202357DE00DE17CF /* ViewController.swift */; };
+		F1B93F2F202357DE00DE17CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B93F2D202357DE00DE17CF /* Main.storyboard */; };
+		F1B93F31202357DE00DE17CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B93F30202357DE00DE17CF /* Assets.xcassets */; };
+		F1B93F34202357DE00DE17CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B93F32202357DE00DE17CF /* LaunchScreen.storyboard */; };
+		F1B93F3F202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B93F3E202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.swift */; };
+		F1B93F4A202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B93F49202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1B93F3B202357DE00DE17CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1B93F1E202357DE00DE17CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B93F25202357DE00DE17CF;
+			remoteInfo = SwiftSoapWebServiceTutorial;
+		};
+		F1B93F46202357DE00DE17CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1B93F1E202357DE00DE17CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1B93F25202357DE00DE17CF;
+			remoteInfo = SwiftSoapWebServiceTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1B93F26202357DE00DE17CF /* SwiftSoapWebServiceTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSoapWebServiceTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B93F29202357DE00DE17CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1B93F2B202357DE00DE17CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1B93F2E202357DE00DE17CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1B93F30202357DE00DE17CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1B93F33202357DE00DE17CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1B93F35202357DE00DE17CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B93F3A202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSoapWebServiceTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B93F3E202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSoapWebServiceTutorialTests.swift; sourceTree = "<group>"; };
+		F1B93F40202357DE00DE17CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B93F45202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSoapWebServiceTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B93F49202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSoapWebServiceTutorialUITests.swift; sourceTree = "<group>"; };
+		F1B93F4B202357DE00DE17CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1B93F23202357DE00DE17CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B93F37202357DE00DE17CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B93F42202357DE00DE17CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1B93F1D202357DE00DE17CF = {
+			isa = PBXGroup;
+			children = (
+				F1B93F28202357DE00DE17CF /* SwiftSoapWebServiceTutorial */,
+				F1B93F3D202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests */,
+				F1B93F48202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests */,
+				F1B93F27202357DE00DE17CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1B93F27202357DE00DE17CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B93F26202357DE00DE17CF /* SwiftSoapWebServiceTutorial.app */,
+				F1B93F3A202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.xctest */,
+				F1B93F45202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B93F28202357DE00DE17CF /* SwiftSoapWebServiceTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				F1B93F29202357DE00DE17CF /* AppDelegate.swift */,
+				F1B93F2B202357DE00DE17CF /* ViewController.swift */,
+				F1B93F2D202357DE00DE17CF /* Main.storyboard */,
+				F1B93F30202357DE00DE17CF /* Assets.xcassets */,
+				F1B93F32202357DE00DE17CF /* LaunchScreen.storyboard */,
+				F1B93F35202357DE00DE17CF /* Info.plist */,
+			);
+			path = SwiftSoapWebServiceTutorial;
+			sourceTree = "<group>";
+		};
+		F1B93F3D202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1B93F3E202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.swift */,
+				F1B93F40202357DE00DE17CF /* Info.plist */,
+			);
+			path = SwiftSoapWebServiceTutorialTests;
+			sourceTree = "<group>";
+		};
+		F1B93F48202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1B93F49202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.swift */,
+				F1B93F4B202357DE00DE17CF /* Info.plist */,
+			);
+			path = SwiftSoapWebServiceTutorialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1B93F25202357DE00DE17CF /* SwiftSoapWebServiceTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B93F4E202357DE00DE17CF /* Build configuration list for PBXNativeTarget "SwiftSoapWebServiceTutorial" */;
+			buildPhases = (
+				F1B93F22202357DE00DE17CF /* Sources */,
+				F1B93F23202357DE00DE17CF /* Frameworks */,
+				F1B93F24202357DE00DE17CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSoapWebServiceTutorial;
+			productName = SwiftSoapWebServiceTutorial;
+			productReference = F1B93F26202357DE00DE17CF /* SwiftSoapWebServiceTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1B93F39202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B93F51202357DE00DE17CF /* Build configuration list for PBXNativeTarget "SwiftSoapWebServiceTutorialTests" */;
+			buildPhases = (
+				F1B93F36202357DE00DE17CF /* Sources */,
+				F1B93F37202357DE00DE17CF /* Frameworks */,
+				F1B93F38202357DE00DE17CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B93F3C202357DE00DE17CF /* PBXTargetDependency */,
+			);
+			name = SwiftSoapWebServiceTutorialTests;
+			productName = SwiftSoapWebServiceTutorialTests;
+			productReference = F1B93F3A202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1B93F44202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B93F54202357DE00DE17CF /* Build configuration list for PBXNativeTarget "SwiftSoapWebServiceTutorialUITests" */;
+			buildPhases = (
+				F1B93F41202357DE00DE17CF /* Sources */,
+				F1B93F42202357DE00DE17CF /* Frameworks */,
+				F1B93F43202357DE00DE17CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B93F47202357DE00DE17CF /* PBXTargetDependency */,
+			);
+			name = SwiftSoapWebServiceTutorialUITests;
+			productName = SwiftSoapWebServiceTutorialUITests;
+			productReference = F1B93F45202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1B93F1E202357DE00DE17CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Esat Gözcü";
+				TargetAttributes = {
+					F1B93F25202357DE00DE17CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1B93F39202357DE00DE17CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1B93F25202357DE00DE17CF;
+					};
+					F1B93F44202357DE00DE17CF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1B93F25202357DE00DE17CF;
+					};
+				};
+			};
+			buildConfigurationList = F1B93F21202357DE00DE17CF /* Build configuration list for PBXProject "SwiftSoapWebServiceTutorial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1B93F1D202357DE00DE17CF;
+			productRefGroup = F1B93F27202357DE00DE17CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B93F25202357DE00DE17CF /* SwiftSoapWebServiceTutorial */,
+				F1B93F39202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests */,
+				F1B93F44202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1B93F24202357DE00DE17CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B93F34202357DE00DE17CF /* LaunchScreen.storyboard in Resources */,
+				F1B93F31202357DE00DE17CF /* Assets.xcassets in Resources */,
+				F1B93F2F202357DE00DE17CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B93F38202357DE00DE17CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B93F43202357DE00DE17CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1B93F22202357DE00DE17CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B93F2C202357DE00DE17CF /* ViewController.swift in Sources */,
+				F1B93F2A202357DE00DE17CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B93F36202357DE00DE17CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B93F3F202357DE00DE17CF /* SwiftSoapWebServiceTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B93F41202357DE00DE17CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B93F4A202357DE00DE17CF /* SwiftSoapWebServiceTutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1B93F3C202357DE00DE17CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1B93F25202357DE00DE17CF /* SwiftSoapWebServiceTutorial */;
+			targetProxy = F1B93F3B202357DE00DE17CF /* PBXContainerItemProxy */;
+		};
+		F1B93F47202357DE00DE17CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1B93F25202357DE00DE17CF /* SwiftSoapWebServiceTutorial */;
+			targetProxy = F1B93F46202357DE00DE17CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1B93F2D202357DE00DE17CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1B93F2E202357DE00DE17CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1B93F32202357DE00DE17CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1B93F33202357DE00DE17CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1B93F4C202357DE00DE17CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1B93F4D202357DE00DE17CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1B93F4F202357DE00DE17CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSoapWebServiceTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.SwiftSoapWebServiceTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1B93F50202357DE00DE17CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSoapWebServiceTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.SwiftSoapWebServiceTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1B93F52202357DE00DE17CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSoapWebServiceTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.SwiftSoapWebServiceTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSoapWebServiceTutorial.app/SwiftSoapWebServiceTutorial";
+			};
+			name = Debug;
+		};
+		F1B93F53202357DE00DE17CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSoapWebServiceTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.SwiftSoapWebServiceTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSoapWebServiceTutorial.app/SwiftSoapWebServiceTutorial";
+			};
+			name = Release;
+		};
+		F1B93F55202357DE00DE17CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSoapWebServiceTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.SwiftSoapWebServiceTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftSoapWebServiceTutorial;
+			};
+			name = Debug;
+		};
+		F1B93F56202357DE00DE17CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftSoapWebServiceTutorialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esatgozcu.com.SwiftSoapWebServiceTutorialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftSoapWebServiceTutorial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1B93F21202357DE00DE17CF /* Build configuration list for PBXProject "SwiftSoapWebServiceTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B93F4C202357DE00DE17CF /* Debug */,
+				F1B93F4D202357DE00DE17CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B93F4E202357DE00DE17CF /* Build configuration list for PBXNativeTarget "SwiftSoapWebServiceTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B93F4F202357DE00DE17CF /* Debug */,
+				F1B93F50202357DE00DE17CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B93F51202357DE00DE17CF /* Build configuration list for PBXNativeTarget "SwiftSoapWebServiceTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B93F52202357DE00DE17CF /* Debug */,
+				F1B93F53202357DE00DE17CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B93F54202357DE00DE17CF /* Build configuration list for PBXNativeTarget "SwiftSoapWebServiceTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B93F55202357DE00DE17CF /* Debug */,
+				F1B93F56202357DE00DE17CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1B93F1E202357DE00DE17CF /* Project object */;
+}
